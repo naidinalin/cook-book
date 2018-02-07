@@ -109,31 +109,31 @@ select {
 select option{
 	background-color: #f6f4f4;
 }
-/*#cb_ingredients_nav{
+/*.cb_ingredients_nav{
 	width: 100%;
 	float: left;
 }
-#cb_ingredients_nav div{
+.cb_ingredients_nav div{
 	text-align: center;
 	width: 20%;
     float: left;
 }
 
-#cb_ingredients_nav input,
-#cb_ingredients_nav select{
+.cb_ingredients_nav input,
+.cb_ingredients_nav select{
 	width: 90%;
 }
 */
-#cb_ingredients_nav{
+.cb_ingredients_nav{
 	width: 100%;
 	display: flex;
 	flex-direction: row;
 }
-#cb_ingredients_nav div{
+.cb_ingredients_nav div{
 	margin-right: 11%;
 } 
 
-#cb_ingredients_nav button{
+.cb_ingredients_nav button{
 	background-color: #fff;
 	float: right;
 	margin: 0;
@@ -168,12 +168,12 @@ select option{
 
 /* @media screen and (max-width: 1000px) and (min-width: 701px)  {
 
-	#cb_ingredients_nav{
+	.cb_ingredients_nav{
 	width: 100%;
 	display: flex;
 	flex-direction: row;
 }
-#cb_ingredients_nav div{
+.cb_ingredients_nav div{
 	margin-right: 11%;
 } 
 }*/
@@ -182,12 +182,12 @@ select option{
 		margin-left: 5%;
 		margin-right: 5%;
 	}
-#cb_ingredients_nav{
+.cb_ingredients_nav{
 width: 100%;
 display: flex;
 flex-direction: row;
 }
-#cb_ingredients_nav div{
+.cb_ingredients_nav div{
 margin-right: 9%;
 } 
 }
@@ -196,12 +196,12 @@ margin-right: 9%;
    		margin-left: 5%;
    		margin-right: 5%;
    	}
-    	#cb_ingredients_nav{
+    	.cb_ingredients_nav{
 	width: 100%;
 	display: flex;
 	flex-direction: row;
 }
-#cb_ingredients_nav div{
+.cb_ingredients_nav div{
 	margin-right: 2%;
 } 
 }
@@ -213,12 +213,12 @@ margin-right: 9%;
  .txt{
   		display: none;
 }
- 	#cb_ingredients_nav{
+ 	.cb_ingredients_nav{
 width: 100%;
 display: flex;
 flex-direction: row;
 } 
-#cb_ingredients_nav div input,#cb_ingredients_nav div select{
+.cb_ingredients_nav div input,#cb_ingredients_nav div select{
 	width: 100%;
 	margin-right: 1%;
 }
