@@ -111,6 +111,7 @@ select option{
 	float: left;
 }
 #cb_ingredients_nav div{
+	text-align: center;
 	width: 20%;
     float: left;
 }
