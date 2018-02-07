@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<!-- Donut -->
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>iQuest Cook Book</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<script src="https://use.fontawesome.com/3a264e10b2.js"></script>
+</head>
+
+<body>
+	<header>
+		<div class="cb_title_container">
+			<div class="cb_title">
+				<i class="fa fa-cutlery"></i>
+				<span>iQuest Cook Book</span>
+			</div>
+		</div>
+		<nav>
+			<div id="cb_nav_left">
+				<button type="button">
+					<i class="fa fa-plus"></i>New recipe</button>
+			</div>
+			<div id="cb_nav_right">
+				<select name="recipe">
+					<option value="select">Select a recipe...</option>
+					<option value="eggs">Scrambled eggs</option>
+				</select>
+			</div>
+		</nav>
+	</header>
+	<div id="cb_info_area">
+		<div id="cb_info_main_container">
+			<br>
+			<div id="cb_about_recipe">
+				<span>
+					<i class="fa fa-info"></i>
+					About
+				</span>
+				<br>
+				<div class="cb_about_recipe">
+
+					<label>Recipe Title</label>
+					<input placeholder="Title" type="text" name="title" />
+
+					<br>
+					<br>
+					<label>Description</label>
+					<textarea placeholder="About the recipe" name="description" rows="7"></textarea>
+					<br><br>
+					<div class="cb_select">
+						<div id="cb_portions">
+							<label for="portions">Portions</label>
+							<select name="portions">
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+							</select>
+						</div>
+						<div id="cb_time">
+							<label for="time">Time(mins)</label>
+							<select name="time">
+								<option value="1">5</option>
+								<option value="2">10</option>
+								<option value="3">15</option>
+								<option value="4">20</option>
+								<option value="5">30</option>
+								<option value="6">45</option>
+								<option value="7">60</option>
+								<option value="8">90</option>
+								<option value="9">120</option>
+							</select>
+						</div>
+						<div id="cb_difficulty">
+							<label for="difficulty">Difficulty</label>
+							<select name="difficulty">
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+							</select>
+						</div>
+					</div>
+					<!-- select -->
+				</div>
+				<!-- about recipe -->
+				<br>
+				<br>
+			</div>
+			<br>
+			<div id="cb_ingredients">
+				<span>
+					<i class="fa fa-list"></i>
+					Ingredients
+				</span>
+			</div>
+			<div class="cb_ingredients">
+				<div id="cb_ingredients_main">
+					<br>
+					<span>
+						<i class="fa fa-angle-double-right"></i>
+						300 g of brown rice
+						<br>
+					</span>
+					<span>
+						<i class="fa fa-angle-double-right"></i>
+						2 pc red onions
+						<br>
+					</span>
+					<span>
+						<i class="fa fa-angle-double-right"></i>
+						1 pc fresh red chilli
+						<br>
+					</span>
+					<span>
+						<i class="fa fa-angle-double-right"></i>
+						25 g unsalted butter
+						<br>
+					</span>
+					<span>
+						<i class="fa fa-angle-double-right"></i>
+						6 pc large free range eggs
+					</span>
+					<br>
+					<br>
+					<div id="cb_ingredients_nav">
+						<div>
+							<input type="text" placeholder="Qty." name="qty" size="3" />
+						</div>
+						<div>
+							<select name="unit">
+								<option value="1">Unit</option>
+								<option value="2">g</option>
+								<option value="3">Kg</option>
+								<option value="4">pc</option>
+								<option value="5">ml</option>
+								<option value="6">l</option>
+								<option value="7">tea spoon(s)</option>
+							</select>
+						</div>
+						<div class="txt">
+							of
+						</div>
+						<div>
+							<input placeholder="Ingredient" type="text" name="ingredient" />
+
+						</div>
+						<!-- <div> -->
+							<button type="button">
+								<i class="fa fa-plus-square"></i>
+							</button>
+						<!-- </div> -->
+					</div>
+					<!-- cb_ingredients_nav -->
+					<br>
+					<br>
+				</div>
+			</div>
+			<br>
+			<div id="cb_steps">
+				<span>
+					<i class="fa fa-list-ol"></i>
+					Steps
+				</span>
+			</div>
+			<div class="cb_steps">
+				<br>
+				<div class="cb_steps_main">
+					<ol>
+						<li>Cook the ricein a pan of boiling salted water according tot the packet instructions, then drain and refresh under cold
+							water, leaving in the colander.
+						</li>
+						<li>At the same time, poach the fish in a large pan of simmering salted water on a medium heat for 10 minutes, then carefully
+							remove with a slotted spoon. Turn the heat up under the poaching water and bring back to a good simmer.
+						</li>
+						<li>Meanwhile, peel the onions and finely slice with the red chilli and coriander stalks. Peel and finely chop the garlic
+							and ginger. Place it all in a large frying pan on a medium heat with 1 tablespoon of oil and the butter, and cook
+							for 10 minutes, or until soft but not coloured, stirring occasionally.
+						</li>
+					</ol>
+					<label>Step</label>
+					<textarea placeholder="Step description" name="description" rows="7"></textarea>
+					<br>
+					<br>
+					<button type="button">
+						<i class="fa fa-plus-square"> Add step</i>
+					</button>
+					<br>
+					<br>
+				</div>
+			</div>
+			<br>
+			<div id="buttons">
+				<span class="cancel">
+					<i class="fa fa-trash-o"> Cancel</i>
+				</span>
+				<span class="save">
+					<i class="fa fa-floppy-o"> Save recipe</i>
+				</span>
+			</div>
+		</div>
+		<br>
+		<br>
+	</div>
+</body>
+
+</html>
