@@ -94,8 +94,11 @@ select {
     width: 33%;
     float: left;
  }
+ #cb_time{
+ 	text-align: center;
+ }
 #cb_difficulty{
-	float: right;
+	text-align: right;
 }
 .cb_ingredients i{
 	color: #db4d3f;
